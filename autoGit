@@ -7,3 +7,4 @@ echo "Comitted with message [$1]"
 git push origin master
 echo "====================log===================="
 git log | head
+git log | head -n 1 | xclip -selection c
